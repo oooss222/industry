@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1756277835754",
+    "desc": {
+      "ru": "Проделанная работа нашей компании",
+      "en": "The work done by our company"
+    },
+    "images": [
+      "/img/uploads/1756277835746.jpg",
+      "/img/uploads/1756277964994.jpg",
+      "/img/uploads/1756277964996.jpg",
+      "/img/uploads/1756277964999.jpg",
+      "/img/uploads/1756277965001.jpg",
+      "/img/uploads/1756277965006.jpg",
+      "/img/uploads/1756277965011.jpg",
+      "/img/uploads/1756277965015.jpg",
+      "/img/uploads/1756277965019.jpg",
+      "/img/uploads/1756277965023.jpg",
+      "/img/uploads/1756277965026.jpg"
+    ]
+  },
+  {
+    "id": "1756278037131",
+    "desc": {
+      "ru": "Рекомендационные письма",
+      "en": "Letters of recommendation"
+    },
+    "images": [
+      "/img/uploads/1756278037121.jpg",
+      "/img/uploads/1756278037123.jpg",
+      "/img/uploads/1756278037125.jpg",
+      "/img/uploads/1756278037128.jpg"
+    ]
+  }
+]

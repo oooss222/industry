@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="projects.title">Наши проекты</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html">
+          <span class="logo-mark">
+            <img src="img/logo.png" alt="Логотип">
+          </span>
+        </a>
+        <nav class="site-nav" id="main-nav">
+          <a href="index.html" data-i18n="nav.home">Главная</a>
+          <a href="about.html" data-i18n="nav.about">О нас</a>
+          <a href="services.html" data-i18n="nav.services">Услуги</a>
+          <a href="contacts.html" data-i18n="nav.contacts">Контакты</a>
+          <a href="projects.html" data-i18n="nav.projects">Проделанная работа</a>
+          <a href="news.html" data-i18n="nav.news">Новости</a>
+        </nav>
+        <div class="header-right">
+          <div class="lang-switch">
+            <button id="lang-ru" class="lang-btn" title="Русский">
+              <img src="img/ru.png" alt="RU">RU
+            </button>
+            <button id="lang-en" class="lang-btn" title="English">
+              <img src="img/en.png" alt="EN">EN
+            </button>
+          </div>
+          <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        </div>
+      </div>
+    </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1 data-i18n="projects.title">Наши проекты</h1>
+      <p data-i18n="projects.subtitle">Ознакомьтесь с нашими реализованными проектами, демонстрирующими качество и профессионализм.</p>
+    </section>
+    <section class="projects-grid" id="projects-list"></section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div><strong data-i18n="brand">Мафтуна Индастри</strong>
+        <div data-i18n="footer.tag">Строительство домов, дорог и мостов</div>
+      </div>
+      <div class="footer-company">
+        <img src="img/farzin.jpg" alt="Farzin Logo" class="footer-company-logo">
+        <span class="footer-company-text" data-i18n="footer.created_by">Данный веб-сайт создан со стороны Farzin technologies</span>
+      </div>
+      <div style="opacity:0.9">© <span id="curr-year"></span> 
+        <span data-i18n="brand">Мафтуна Индастри</span>. <span data-i18n="footer.rights">Все права защищены.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

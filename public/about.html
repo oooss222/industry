@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title data-i18n="brand">Мафтуна Индастри</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.png" sizes="any">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Мафтуна Индастри">
+        <img src="img/logo.png" alt="Мафтуна Индастри" class="logo-img">
+      </a>
+      <nav class="site-nav" id="main-nav" aria-label="Главное меню">
+        <a href="index.html" data-i18n="nav.home">Главная</a>
+        <a href="about.html" data-i18n="nav.about" class="active">О нас</a>
+        <a href="services.html" data-i18n="nav.services">Услуги</a>
+        <a href="contacts.html" data-i18n="nav.contacts">Контакты</a>
+        <a href="projects.html" data-i18n="nav.projects">Проделанная работа</a>
+        <a href="news.html" data-i18n="nav.news">Новости</a>
+      </nav>
+      <div class="header-right">
+        <div class="lang-switch" aria-label="Переключение языка">
+          <button id="lang-ru" class="lang-btn" title="Русский" aria-pressed="true">
+            <img src="img/ru.png" alt="RU"> RU
+          </button>
+          <button id="lang-en" class="lang-btn" title="English" aria-pressed="false">
+            <img src="img/en.png" alt="EN"> EN
+          </button>
+        </div>
+        <button class="nav-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+  <main class="container content">
+    <h1 data-i18n="nav.about">О нас</h1>
+    <p data-i18n="about.description">Компания «Мафтуна Индастри» — таджикская компания, зарегистрированная 04 июля 2011 года. Головной офис находится в Республике Таджикистан, Хатлонской области, городе Бохтар (ул. Вахдат, д. 3). Учредителем и одновременно руководителем компании является Шарипова Гулджахон Уразовна. Основной вид деятельности предприятия – покупка и продажа строительных материалов и грузоперевозок. Кроме того, компания имеет необходимые лицензии, позволяющие выполнять проектно-строительные работы: производство асфальтобетона, строительство автомобильных дорог и мостов (длиной до 50 м), а также содержание (обслуживание) дорог категорий II–V и городских улиц и грузоперевозок. Благодаря наличию лицензий и квалифицированного персонала, ООО «Мафтуна Индастри» предоставляет комплексные услуги в сфере дорожного строительства, соблюдая все нормативные требования.</p>
+    <h2 data-i18n="about.mission.title">Наша миссия</h2>
+    <p data-i18n="about.mission.desc">Создавать качественную и безопасную инфраструктуру, которая служит людям и укрепляет экономику региона.</p>
+  </main>
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <strong data-i18n="brand">Мафтуна Индастри</strong>
+        <p data-i18n="footer.tag">Строительство домов, дорог и мостов</p>
+      </div>
+      <div class="footer-company">
+        <img src="img/farzin.jpg" alt="Farzin Logo" class="footer-company-logo">
+        <span class="footer-company-text" data-i18n="footer.created_by">Данный веб-сайт создан со стороны Farzin technologies</span>
+      </div>
+      <div style="opacity:0.9">
+        © <span id="curr-year"></span> <span data-i18n="brand">Мафтуна Индастри</span>. <span data-i18n="footer.rights">Все права защищены.</span>
+      </div>
+    </div>
+  </footer>
+  <script src="i18n.js" defer></script>
+  <script src="script.js" defer></script>
+  <script>
+    document.getElementById('curr-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

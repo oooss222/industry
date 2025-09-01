@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title data-i18n="brand">Мафтуна Индастри</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon.png" sizes="any">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html">
+          <span class="logo-mark">
+            <img src="img/logo.png" alt="Логотип">
+          </span>
+        </a>
+        <nav class="site-nav" id="main-nav">
+          <a href="index.html" data-i18n="nav.home">Главная</a>
+          <a href="about.html" data-i18n="nav.about">О нас</a>
+          <a href="services.html" data-i18n="nav.services">Услуги</a>
+          <a href="contacts.html" data-i18n="nav.contacts">Контакты</a>
+          <a href="projects.html" data-i18n="nav.projects">Проделанная работа</a>
+          <a href="news.html" data-i18n="nav.news">Новости</a>
+        </nav>
+        <div class="header-right">
+          <div class="lang-switch">
+            <button id="lang-ru" class="lang-btn" title="Русский">
+              <img src="img/ru.png" alt="RU">RU
+            </button>
+            <button id="lang-en" class="lang-btn" title="English">
+              <img src="img/en.png" alt="EN">EN
+            </button>
+          </div>
+          <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        </div>
+      </div>
+    </header>
+    <main class="container content">
+      <h1 data-i18n="nav.services">Услуги</h1>
+      <p data-i18n="services.lead">Наша компания предлагает широкий спектр услуг в области дорожного строительства и снабжения стройматериалами. В перечень основных услуг входят:</p>
+      <div class="cards" style="margin-top:12px">
+        <div class="card">
+          <h3 data-i18n="services.road_construction.title">Строительство автомобильных дорог – возведение новых дорожных покрытий и реконструкция существующих трасс.</h3>
+          <p data-i18n="services.road_construction.desc">Проектирование, подготовка основания, укладка дорожных покрытий, устройство дорожных сооружений.</p>
+        </div>
+        <div class="card">
+          <h3 data-i18n="services.asphalt.title">Асфальтирование и ремонт дорожного покрытия – укладка асфальтобетонного покрытия, ямочный ремонт и капитальный ремонт дорог.</h3>
+          <p data-i18n="services.asphalt.desc">Монтаж мостовых конструкций, бетонные и металлические работы, подготовка опор и подходов.</p>
+        </div>
+        <div class="card">
+          <h3 data-i18n="services.bridges.title">Строительство малых мостов</h3>
+          <p data-i18n="services.bridges.desc">Проектирование и возведение мостовых сооружений небольшой длины (до 50м).</p>
+        </div>
+        <div class="card">
+          <h3 data-i18n="services.drainage.title">Прокладка водоотводных труб и строительство эстакад</h3>
+          <p data-i18n="services.drainage.desc">Устройство дренажных систем (труб) и возведение эстакад для обеспечения надежной транспортной инфраструктуры.</p>
+        </div>
+        <div class="card">
+          <h3 data-i18n="services.asphalt_production.title">Производство и поставка асфальтобетона</h3>
+          <p data-i18n="services.asphalt_production.desc">Изготовление качественной асфальтобетонной смеси и её доставка на строительные объекты.</p>
+        </div>
+        <div class="card">
+          <h3 data-i18n="services.materials.title">Продажа строительных материалов</h3>
+          <p data-i18n="services.materials.desc">Реализация различных видов строительных материалов (щебень, песок, бетон и др.) оптом и в розницу.</p>
+        </div>
+        <div class="card">
+          <h3 data-i18n="services.transportation.title">Грузоперевозки</h3>
+          <p data-i18n="services.transportation.desc">ООО «Мафтунa Индастри», имеющее государственную лицензию на деятельность в сфере автотранспортных перевозок и дорожного хозяйства, предоставляет услуги по перевозке грузов по территории Таджикистана и за его пределами, организации доставки строительных материалов, техники и оборудования, транспортировке грузов для частных и корпоративных клиентов и обеспечению надежной логистики «от двери до двери», гарантируя безопасность и своевременность доставки благодаря собственному автопарку и опытным водителям, работая по стандартам, признанным на национальном и международном уровне
+.</p>
+        </div>
+        
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-inner">
+        <div>
+          <strong data-i18n="brand">Мафтуна Индастри</strong>
+          <div data-i18n="footer.tag">Строительство домов, дорог и мостов</div>
+        </div>
+        <div class="footer-company">
+          <img src="img/farzin.jpg" alt="Farzin Logo" class="footer-company-logo">
+          <span class="footer-company-text" data-i18n="footer.created_by">Данный веб-сайт создан со стороны Farzin technologies</span>
+        </div>
+        <div style="opacity:0.9">© <span id="curr-year"></span>
+          <span data-i18n="brand">Мафтуна Индастри</span>.
+          <span data-i18n="footer.rights">Все права защищены.</span>
+        </div>
+      </div>
+    </footer>
+    <script src="i18n.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

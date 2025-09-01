@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Контакты компании Мафтуна Индастри: адрес, телефон, социальные сети. Строительство дорог и мостов.">
+  <meta name="theme-color" content="#2a2a2a">
+  <meta property="og:title" content="Контакты - Мафтуна Индастри">
+  <meta property="og:description" content="Свяжитесь с нами: адрес, телефон, социальные сети.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="img/logo.png">
+  <title data-i18n="brand">Мафтуна Индастри</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.png" sizes="any">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="Мафтуна Индастри">
+      <img src="img/logo.png" alt="Мафтуна Индастри" class="logo-img">
+    </a>
+    <nav class="site-nav" id="main-nav" aria-label="Главное меню">
+      <a href="index.html" data-i18n="nav.home">Главная</a>
+      <a href="about.html" data-i18n="nav.about">О нас</a>
+      <a href="services.html" data-i18n="nav.services">Услуги</a>
+      <a href="contacts.html" data-i18n="nav.contacts" class="active">Контакты</a>
+      <a href="projects.html" data-i18n="nav.projects">Проекты</a>
+      <a href="news.html" data-i18n="nav.news">Новости</a>
+    </nav>
+    <div class="header-right">
+      <div class="lang-switch" aria-label="Переключение языка">
+        <button id="lang-ru" class="lang-btn" title="Русский" aria-pressed="true">
+          <img src="img/ru.png" alt="RU"> RU
+        </button>
+        <button id="lang-en" class="lang-btn" title="English" aria-pressed="false">
+          <img src="img/en.png" alt="EN"> EN
+        </button>
+      </div>
+      <button class="nav-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+<main class="container content">
+  <h1 data-i18n="nav.contacts">Контакты</h1>
+  <div class="contact-grid">
+    <section class="contact-block">
+      <h2 data-i18n="contacts.address">Адрес</h2>
+      <p>
+        <a id="address-text" href="https://yandex.ru/maps/?text=Республика+Таджикистан,+Хатлонская+область,+город+Бохтар,+улица+Вахдат,+д.3" target="_blank" rel="noopener" data-i18n="contacts.address_text">
+          <!-- Данные будут обновляться динамически -->
+        </a>
+      </p>
+    </section>
+    <section class="contact-block">
+      <h2 data-i18n="contacts.phone">Телефон</h2>
+      <p>
+        <a id="phone-link" href="tel:+992006556679">
+          <img src="img/icons/phone.svg" alt="Телефон" class="icon">
+          <span id="phone-number" data-i18n="contacts.phone_number">
+            <!-- Данные будут обновляться динамически -->
+          </span>
+        </a>
+      </p>
+      <h2 data-i18n="contacts.email">Email</h2>
+      <p>
+        <a id="email-link" href="mailto:info@maftuna.tj">
+          <img src="img/icons/email.svg" alt="Почта" class="icon">
+          <span id="email-address" data-i18n="contacts.email_address">
+            <!-- Данные будут обновляться динамически -->
+          </span>
+        </a>
+      </p>
+      <h2 data-i18n="contacts.social">Социальные сети</h2>
+      <nav class="social-row" aria-label="Социальные сети">
+        <a id="telegram-link" href="https://t.me/maftuna_company" target="_blank" rel="noopener" aria-label="Telegram" class="social-btn tg">
+          <img src="img/icons/telegram.svg" alt="Telegram">
+        </a>
+        <a id="whatsapp-link" href="https://wa.me/992985737899" target="_blank" rel="noopener" aria-label="WhatsApp" class="social-btn wa">
+          <img src="img/icons/whatsapp.svg" alt="WhatsApp">
+        </a>
+        <a id="instagram-link" href="https://instagram.com/maftuna_company" target="_blank" rel="noopener" aria-label="Instagram" class="social-btn ig">
+          <img src="img/icons/instagram.svg" alt="Instagram">
+        </a>
+        <a id="vk-link" href="https://vk.com/your_page" target="_blank" rel="noopener" aria-label="VK" class="social-btn vk">
+          <img src="img/icons/vk.svg" alt="VK">
+        </a>
+        <a id="facebook-link" href="https://www.facebook.com/your_page" target="_blank" rel="noopener" aria-label="Facebook" class="social-btn fb">
+          <img src="img/icons/facebook.svg" alt="Facebook">
+        </a>
+        <a id="ok-link" href="https://ok.ru/your_page" target="_blank" rel="noopener" aria-label="OK" class="social-btn ok">
+          <img src="img/icons/odnoklassniki.svg" alt="Odnoklassniki">
+        </a>
+      </nav>
+    </section>
+  </div>
+</main>
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <strong data-i18n="brand">Мафтуна Индастри</strong>
+      <p data-i18n="footer.tag">Строительство домов, дорог и мостов</p>
+    </div>
+    <div class="footer-company">
+      <img src="img/farzin.jpg" alt="Farzin Logo" class="footer-company-logo">
+      <span class="footer-company-text" data-i18n="footer.created_by">Данный веб-сайт создан со стороны Farzin technologies</span>
+    </div>
+    <div style="opacity:0.9">
+      © <span id="curr-year"></span> <span data-i18n="brand">Мафтуна Индастри</span>. <span data-i18n="footer.rights">Все права защищены.</span>
+    </div>
+  </div>
+</footer>
+<script src="i18n.js" defer></script>
+<script src="script.js" defer></script>
+<script>
+  document.getElementById('curr-year').textContent = new Date().getFullYear();
+
+  // Функция для обновления контактов
+  function updateContacts() {
+    const contacts = JSON.parse(localStorage.getItem('maftuna_contacts') || '{}');
+
+    // Обновляем адрес
+    const addressText = document.getElementById('address-text');
+    if (addressText) {
+      addressText.textContent = contacts.address?.ru || 'Республика Таджикистан, Хатлонская область, город Бохтар, улица Вахдат, д.3';
+      addressText.href = `https://yandex.ru/maps/?text=${encodeURIComponent(addressText.textContent)}`;
+    }
+
+    // Обновляем телефон
+    const phoneNumber = document.getElementById('phone-number');
+    const phoneLink = document.getElementById('phone-link');
+    if (phoneNumber && phoneLink) {
+      phoneNumber.textContent = contacts.phone || '+992 00 655 66 79';
+      phoneLink.href = `tel:${contacts.phone?.replace(/\s/g, '') || '+992006556679'}`;
+    }
+
+    // Обновляем email
+    const emailAddress = document.getElementById('email-address');
+    const emailLink = document.getElementById('email-link');
+    if (emailAddress && emailLink) {
+      emailAddress.textContent = contacts.email || 'info@maftuna.tj';
+      emailLink.href = `mailto:${contacts.email || 'info@maftuna.tj'}`;
+    }
+
+    // Обновляем социальные сети
+    const socialLinks = {
+      'telegram-link': contacts.telegram || 'https://t.me/maftuna_company',
+      'whatsapp-link': contacts.whatsapp ? `https://wa.me/${contacts.whatsapp.replace(/\s/g, '')}` : 'https://wa.me/992985737899',
+      'instagram-link': contacts.instagram || 'https://instagram.com/maftuna_company',
+      'vk-link': contacts.vk || 'https://vk.com/your_page',
+      'facebook-link': contacts.facebook || 'https://www.facebook.com/your_page',
+      'ok-link': contacts.ok || 'https://ok.ru/your_page'
+    };
+    Object.entries(socialLinks).forEach(([id, href]) => {
+      const link = document.getElementById(id);
+      if (link) link.href = href;
+    });
+  }
+
+  // Загружаем контакты при загрузке страницы
+  document.addEventListener('DOMContentLoaded', updateContacts);
+
+  // Обновляем контакты при изменении localStorage
+  window.addEventListener('storage', updateContacts);
+</script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Мафтуна Индастри - строительство дорог, мостов и инфраструктуры. Качество, безопасность, экология.">
+  <meta name="theme-color" content="#2a2a2a">
+  <meta property="og:title" content="Мафтуна Индастри">
+  <meta property="og:description" content="Строительство дорог, мостов и инфраструктуры с акцентом на качество, безопасность и экологию.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="img/logo.png">
+  <title data-i18n="brand">Мафтуна Индастри</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.png" sizes="any">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="Мафтуна Индастри">
+      <img src="img/logo.png" alt="Мафтуна Индастри" class="logo-img">
+    </a>
+    <nav class="site-nav" id="main-nav" aria-label="Главное меню">
+      <a href="index.html" data-i18n="nav.home" class="active">Главная</a>
+      <a href="about.html" data-i18n="nav.about">О нас</a>
+      <a href="services.html" data-i18n="nav.services">Услуги</a>
+      <a href="contacts.html" data-i18n="nav.contacts">Контакты</a>
+      <a href="projects.html" data-i18n="nav.projects">Проделанная работа</a>
+      <a href="news.html" data-i18n="nav.news">Новости</a>
+    </nav>
+    <div class="header-right">
+      <div class="lang-switch" aria-label="Переключение языка">
+        <button id="lang-ru" class="lang-btn" title="Русский" aria-pressed="true">
+          <img src="img/ru.png" alt="RU"> RU
+        </button>
+        <button id="lang-en" class="lang-btn" title="English" aria-pressed="false">
+          <img src="img/en.png" alt="EN"> EN
+        </button>
+      </div>
+      <button class="nav-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+<main class="container content">
+  <section class="hero">
+    <h1 data-i18n="hero.title">Строительство дорог, мостов и инфраструктуры</h1>
+    <p data-i18n="hero.subtitle">Качество. Безопасность. Экология. Компания «Мафтуна Индастри» выполняет проекты любой сложности.</p>
+    <a class="btn" href="projects.html" data-i18n="hero.cta">Наши работы</a>
+  </section>
+  <section class="cards">
+    <div class="card">
+      <h3 data-i18n="home.experience.title">Опыт</h3>
+      <p data-i18n="home.experience.desc">Многолетняя практика и лицензии для реализации сложных проектов.</p>
+    </div>
+    <div class="card">
+      <h3 data-i18n="home.quality.title">Качество</h3>
+      <p data-i18n="home.quality.desc">Работа в соответствии со СНиП и современными стандартами.</p>
+    </div>
+    <div class="card">
+      <h3 data-i18n="home.team.title">Команда</h3>
+      <p data-i18n="home.team.desc">Квалифицированные специалисты, соблюдающие техрегламенты и безопасность.</p>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <strong data-i18n="brand">Мафтуна Индастри</strong>
+      <p data-i18n="footer.tag">Строительство домов, дорог и мостов</p>
+    </div>
+    <div class="footer-company">
+      <img src="img/farzin.jpg" alt="Farzin Logo" class="footer-company-logo">
+      <span class="footer-company-text" data-i18n="footer.created_by">Данный веб-сайт создан со стороны Farzin technologies</span>
+    </div>
+    <div class="footer-rights">
+      © <span id="curr-year"></span> <span data-i18n="brand">Мафтуна Индастри</span>. <span data-i18n="footer.rights">Все права защищены.</span>
+    </div>
+  </div>
+</footer>
+<script src="i18n.js" defer></script>
+<script src="script.js" defer></script>
+<script>
+  document.getElementById('curr-year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
